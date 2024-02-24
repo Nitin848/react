@@ -1,0 +1,62 @@
+/* PlanetCard.css */
+*{
+  
+    background-color: aquamarine;
+  }
+  .planet-card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: white;
+    }
+    
+    .planet-card h2 {
+      margin-top: 0;
+      font-size: 24px;
+      background-color: white;
+  
+      
+    }
+    
+    .planet-card p {
+      margin: 5px 0;
+      background-color: white;
+  
+    }
+    
+  .planet-card h3 {
+      margin-top: 20px;
+      font-size: 18px;
+      background-color: white;
+  
+  }
+    
+  .planet-card .load-more {
+      margin-top: 10px;
+      padding: 5px 10px;
+      font-size: 14px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+    
+  .planet-card .load-more:hover {
+      background-color: #0056b3;
+  }
+  
+  ul.residents {
+      background-color: white;
+  }
+  
+  
+  li.resident {
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #a52a69; 
+  }

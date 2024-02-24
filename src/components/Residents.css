@@ -1,0 +1,55 @@
+.residents-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .resident {
+    width: calc(33.333% - 10px);
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resident-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .resident-details {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .load-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .load-more:hover {
+    background-color: #0069d9;
+  }
+  
+  li.resident {
+    background-color: white;
+  }
+  
+  li.resident {
+    background-color: white;
+  }
+  
